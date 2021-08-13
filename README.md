@@ -81,7 +81,7 @@ qemu-img create -f qcow2 alpine.img 5g
 
 ## Starting Alpine installation on QEMU
 
-Them you can launch Qemu installation of Alpine. I fyou are on an XVNC session, it will launch a QEMU window.
+Them you can launch Qemu installation of Alpine. If you are on an XVNC session, it will launch a QEMU window.
 
 ```
 qemu-system-x86_64 -hda alpine.img -cdrom alpine.iso -boot d -m 512
@@ -91,7 +91,7 @@ If you want to keep on the same terminal (not launching a new window) you can ap
 
 If you are on a QEMU window you can click it to grab focus, and can CTRL+ALT+G to release focus. You can also CTRL+ALT+F to go fullscreen.
 
-On a terminal, you can stop emulation with CTRL+A+X. There are several others Ctrl+A commands.
+On a terminal, you can stop emulation with CTRL+A+X. There are several others CTRL+A commands.
 
 It will take a while for alpine to boot, but will them present you with a "Login:" terminal, just enter "root" to start. 
 
@@ -146,7 +146,7 @@ Once the installation is complete, shutdown Alpine by issuing halt"
 halt
 ```
 
-When it says system halted, exit Qemu (either by CTRL+Alt+g and closing window, or by ctrl+a+x on the terminal).
+When it says system halted, exit Qemu (either by CTRL+ALT+G and closing window, or by ctrl+a+x on the terminal).
 
 
 ## Running installed Alpine on Qemu
