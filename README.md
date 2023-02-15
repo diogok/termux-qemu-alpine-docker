@@ -59,7 +59,7 @@ Installing Qemu:
 
 ```
 pkg install unstable-repo
-pkg install qemu-system-x64_64 qemu-utils
+pkg install qemu-system-x86_64 qemu-utils
 ```
 
 That is it.
